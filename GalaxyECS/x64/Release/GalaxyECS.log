@@ -1,0 +1,34 @@
+﻿  GUIManager.cpp
+c:\users\devil\source\repos\galaxyecs\galaxyecs\guimanager.cpp(16): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+c:\users\devil\source\repos\galaxyecs\galaxyecs\guimanager.cpp(16): warning C4267: 'initializing': conversion from 'size_t' to 'const int', possible loss of data
+c:\users\devil\source\repos\galaxyecs\galaxyecs\guimanager.cpp(90): warning C4244: 'initializing': conversion from 'int64_t' to 'float', possible loss of data
+c:\users\devil\source\repos\galaxyecs\galaxyecs\guimanager.cpp(92): warning C4244: '=': conversion from 'int64_t' to 'float', possible loss of data
+c:\users\devil\source\repos\galaxyecs\galaxyecs\guimanager.cpp(98): warning C4244: '=': conversion from 'float' to 'int64_t', possible loss of data
+c:\users\devil\source\repos\galaxyecs\galaxyecs\guimanager.cpp(156): warning C4018: '>': signed/unsigned mismatch
+c:\users\devil\vcpkg\installed\x64-windows\include\entt\core\type_info.hpp(60): warning C4307: '*': integral constant overflow
+  c:\users\devil\vcpkg\installed\x64-windows\include\entt\core\type_info.hpp(59): note: while compiling class template member function 'uint32_t entt::type_info<Component,void>::id(void) noexcept'
+          with
+          [
+              Component=CGalaxy
+          ]
+  c:\users\devil\vcpkg\installed\x64-windows\include\entt\entity\registry.hpp(193): note: see reference to function template instantiation 'uint32_t entt::type_info<Component,void>::id(void) noexcept' being compiled
+          with
+          [
+              Component=CGalaxy
+          ]
+  c:\users\devil\vcpkg\installed\x64-windows\include\entt\entity\registry.hpp(193): note: see reference to class template instantiation 'entt::type_info<Component,void>' being compiled
+          with
+          [
+              Component=CGalaxy
+          ]
+  c:\users\devil\vcpkg\installed\x64-windows\include\entt\entity\registry.hpp(227): note: see reference to function template instantiation 'const entt::basic_registry<entt::entity>::pool_handler<CGalaxy> &entt::basic_registry<entt::entity>::assure<CGalaxy>(void) const' being compiled
+  c:\users\devil\vcpkg\installed\x64-windows\include\entt\entity\registry.hpp(227): note: see reference to function template instantiation 'const entt::basic_registry<entt::entity>::pool_handler<CGalaxy> &entt::basic_registry<entt::entity>::assure<CGalaxy>(void) const' being compiled
+  c:\users\devil\vcpkg\installed\x64-windows\include\entt\entity\registry.hpp(901): note: see reference to function template instantiation 'entt::basic_registry<entt::entity>::pool_handler<CGalaxy> &entt::basic_registry<entt::entity>::assure<CGalaxy>(void)' being compiled
+  c:\users\devil\vcpkg\installed\x64-windows\include\entt\entity\registry.hpp(905): note: see reference to function template instantiation 'entt::basic_registry<entt::entity>::pool_handler<CGalaxy> &entt::basic_registry<entt::entity>::assure<CGalaxy>(void)' being compiled
+  c:\users\devil\source\repos\galaxyecs\galaxyecs\guimanager.cpp(143): note: see reference to function template instantiation 'CGalaxy &entt::basic_registry<entt::entity>::get<CGalaxy>(const entt::entity)' being compiled
+  Generating code
+  2 of 7032 functions (<0.1%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    4 functions had inline decision re-evaluated but remain unchanged
+  Finished generating code
+  GalaxyECS.vcxproj -> C:\Users\devil\source\repos\GalaxyECS\x64\Release\GalaxyECS.exe

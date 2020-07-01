@@ -1,0 +1,299 @@
+﻿  Camera.cpp
+c:\users\devil\vcpkg\installed\x86-windows\include\entt\core\type_info.hpp(60): warning C4307: '*': integral constant overflow
+  c:\users\devil\vcpkg\installed\x86-windows\include\entt\core\type_info.hpp(59): note: while compiling class template member function 'uint32_t entt::type_info<unsigned int,void>::id(void) noexcept'
+  c:\users\devil\vcpkg\installed\x86-windows\include\entt\meta\meta.hpp(199): note: see reference to function template instantiation 'uint32_t entt::type_info<unsigned int,void>::id(void) noexcept' being compiled
+  c:\users\devil\vcpkg\installed\x86-windows\include\entt\meta\meta.hpp(197): note: see reference to class template instantiation 'entt::type_info<unsigned int,void>' being compiled
+  c:\users\devil\vcpkg\installed\x86-windows\include\entt\meta\meta.hpp(197): note: while compiling class template member function 'entt::internal::meta_type_node *entt::internal::meta_node<unsigned int>::resolve(void) noexcept'
+  c:\users\devil\vcpkg\installed\x86-windows\include\entt\meta\meta.hpp(349): note: see reference to function template instantiation 'entt::internal::meta_type_node *entt::internal::meta_node<unsigned int>::resolve(void) noexcept' being compiled
+  c:\users\devil\vcpkg\installed\x86-windows\include\entt\meta\meta.hpp(233): note: see reference to class template instantiation 'entt::internal::meta_node<unsigned int>' being compiled
+  c:\users\devil\vcpkg\installed\x86-windows\include\entt\meta\meta.hpp(347): note: see reference to class template instantiation 'entt::internal::meta_info<Type>' being compiled
+          with
+          [
+              Type=unsigned int
+          ]
+  c:\users\devil\vcpkg\installed\x86-windows\include\entt\meta\meta.hpp(379): note: see reference to function template instantiation 'entt::meta_any::meta_any<unsigned int,size_t&>(std::in_place_type_t<unsigned int>,size_t &)' being compiled
+  c:\users\devil\vcpkg\installed\x86-windows\include\entt\meta\meta.hpp(970): note: see reference to function template instantiation 'entt::meta_any::meta_any<size_t&,void>(Type)' being compiled
+          with
+          [
+              Type=size_t &
+          ]
+  Input.cpp
+c:\users\devil\vcpkg\installed\x86-windows\include\entt\core\type_info.hpp(60): warning C4307: '*': integral constant overflow
+  c:\users\devil\vcpkg\installed\x86-windows\include\entt\core\type_info.hpp(59): note: while compiling class template member function 'uint32_t entt::type_info<unsigned int,void>::id(void) noexcept'
+  c:\users\devil\vcpkg\installed\x86-windows\include\entt\meta\meta.hpp(199): note: see reference to function template instantiation 'uint32_t entt::type_info<unsigned int,void>::id(void) noexcept' being compiled
+  c:\users\devil\vcpkg\installed\x86-windows\include\entt\meta\meta.hpp(197): note: see reference to class template instantiation 'entt::type_info<unsigned int,void>' being compiled
+  c:\users\devil\vcpkg\installed\x86-windows\include\entt\meta\meta.hpp(197): note: while compiling class template member function 'entt::internal::meta_type_node *entt::internal::meta_node<unsigned int>::resolve(void) noexcept'
+  c:\users\devil\vcpkg\installed\x86-windows\include\entt\meta\meta.hpp(349): note: see reference to function template instantiation 'entt::internal::meta_type_node *entt::internal::meta_node<unsigned int>::resolve(void) noexcept' being compiled
+  c:\users\devil\vcpkg\installed\x86-windows\include\entt\meta\meta.hpp(233): note: see reference to class template instantiation 'entt::internal::meta_node<unsigned int>' being compiled
+  c:\users\devil\vcpkg\installed\x86-windows\include\entt\meta\meta.hpp(347): note: see reference to class template instantiation 'entt::internal::meta_info<Type>' being compiled
+          with
+          [
+              Type=unsigned int
+          ]
+  c:\users\devil\vcpkg\installed\x86-windows\include\entt\meta\meta.hpp(379): note: see reference to function template instantiation 'entt::meta_any::meta_any<unsigned int,size_t&>(std::in_place_type_t<unsigned int>,size_t &)' being compiled
+  c:\users\devil\vcpkg\installed\x86-windows\include\entt\meta\meta.hpp(970): note: see reference to function template instantiation 'entt::meta_any::meta_any<size_t&,void>(Type)' being compiled
+          with
+          [
+              Type=size_t &
+          ]
+  EntityManager.cpp
+c:\users\devil\source\repos\galaxyecs\galaxyecs\entitymanager.cpp(205): warning C4244: 'initializing': conversion from 'double' to 'uint32_t', possible loss of data
+c:\users\devil\source\repos\galaxyecs\galaxyecs\entitymanager.cpp(219): warning C4244: '*=': conversion from 'float' to 'uint32_t', possible loss of data
+c:\users\devil\source\repos\galaxyecs\galaxyecs\entitymanager.cpp(272): warning C4244: '*=': conversion from 'float' to 'uint32_t', possible loss of data
+c:\users\devil\source\repos\galaxyecs\galaxyecs\glm\include\glm\detail\type_vec3.inl(286): error C2440: 'static_cast': cannot convert from 'U' to 'T'
+          with
+          [
+              U=glm::mat4
+          ]
+          and
+          [
+              T=float
+          ]
+  c:\users\devil\source\repos\galaxyecs\galaxyecs\glm\include\glm\detail\type_vec3.inl(286): note: No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
+  c:\users\devil\source\repos\galaxyecs\galaxyecs\entitymanager.cpp(297): note: see reference to function template instantiation 'glm::vec<3,float,0> &glm::vec<3,float,0>::operator *=<glm::mat4>(U)' being compiled
+          with
+          [
+              U=glm::mat4
+          ]
+  c:\users\devil\source\repos\galaxyecs\galaxyecs\entitymanager.cpp(297): note: see reference to function template instantiation 'glm::vec<3,float,0> &glm::vec<3,float,0>::operator *=<glm::mat4>(U)' being compiled
+          with
+          [
+              U=glm::mat4
+          ]
+c:\users\devil\source\repos\galaxyecs\galaxyecs\glm\include\glm\detail\type_vec3.inl(287): error C2440: 'static_cast': cannot convert from 'U' to 'T'
+          with
+          [
+              U=glm::mat4
+          ]
+          and
+          [
+              T=float
+          ]
+  c:\users\devil\source\repos\galaxyecs\galaxyecs\glm\include\glm\detail\type_vec3.inl(287): note: No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
+c:\users\devil\source\repos\galaxyecs\galaxyecs\glm\include\glm\detail\type_vec3.inl(288): error C2440: 'static_cast': cannot convert from 'U' to 'T'
+          with
+          [
+              U=glm::mat4
+          ]
+          and
+          [
+              T=float
+          ]
+  c:\users\devil\source\repos\galaxyecs\galaxyecs\glm\include\glm\detail\type_vec3.inl(288): note: No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
+  GalaxyECS.cpp
+c:\users\devil\vcpkg\installed\x86-windows\include\entt\core\type_info.hpp(60): warning C4307: '*': integral constant overflow
+  c:\users\devil\vcpkg\installed\x86-windows\include\entt\core\type_info.hpp(59): note: while compiling class template member function 'uint32_t entt::type_info<Component,void>::id(void) noexcept'
+          with
+          [
+              Component=CController
+          ]
+  c:\users\devil\vcpkg\installed\x86-windows\include\entt\entity\registry.hpp(193): note: see reference to function template instantiation 'uint32_t entt::type_info<Component,void>::id(void) noexcept' being compiled
+          with
+          [
+              Component=CController
+          ]
+  c:\users\devil\vcpkg\installed\x86-windows\include\entt\entity\registry.hpp(193): note: see reference to class template instantiation 'entt::type_info<Component,void>' being compiled
+          with
+          [
+              Component=CController
+          ]
+  c:\users\devil\vcpkg\installed\x86-windows\include\entt\entity\registry.hpp(227): note: see reference to function template instantiation 'const entt::basic_registry<entt::entity>::pool_handler<CController> &entt::basic_registry<entt::entity>::assure<CController>(void) const' being compiled
+  c:\users\devil\vcpkg\installed\x86-windows\include\entt\entity\registry.hpp(227): note: see reference to function template instantiation 'const entt::basic_registry<entt::entity>::pool_handler<CController> &entt::basic_registry<entt::entity>::assure<CController>(void) const' being compiled
+  c:\users\devil\vcpkg\installed\x86-windows\include\entt\entity\registry.hpp(901): note: see reference to function template instantiation 'entt::basic_registry<entt::entity>::pool_handler<CController> &entt::basic_registry<entt::entity>::assure<CController>(void)' being compiled
+  c:\users\devil\vcpkg\installed\x86-windows\include\entt\entity\registry.hpp(905): note: see reference to function template instantiation 'entt::basic_registry<entt::entity>::pool_handler<CController> &entt::basic_registry<entt::entity>::assure<CController>(void)' being compiled
+  c:\users\devil\source\repos\galaxyecs\galaxyecs\galaxyecs.cpp(36): note: see reference to function template instantiation 'CController &entt::basic_registry<entt::entity>::get<CController>(const entt::entity)' being compiled
+  Globals.cpp
+c:\users\devil\vcpkg\installed\x86-windows\include\entt\core\type_info.hpp(60): warning C4307: '*': integral constant overflow
+  c:\users\devil\vcpkg\installed\x86-windows\include\entt\core\type_info.hpp(59): note: while compiling class template member function 'uint32_t entt::type_info<unsigned int,void>::id(void) noexcept'
+  c:\users\devil\vcpkg\installed\x86-windows\include\entt\meta\meta.hpp(199): note: see reference to function template instantiation 'uint32_t entt::type_info<unsigned int,void>::id(void) noexcept' being compiled
+  c:\users\devil\vcpkg\installed\x86-windows\include\entt\meta\meta.hpp(197): note: see reference to class template instantiation 'entt::type_info<unsigned int,void>' being compiled
+  c:\users\devil\vcpkg\installed\x86-windows\include\entt\meta\meta.hpp(197): note: while compiling class template member function 'entt::internal::meta_type_node *entt::internal::meta_node<unsigned int>::resolve(void) noexcept'
+  c:\users\devil\vcpkg\installed\x86-windows\include\entt\meta\meta.hpp(349): note: see reference to function template instantiation 'entt::internal::meta_type_node *entt::internal::meta_node<unsigned int>::resolve(void) noexcept' being compiled
+  c:\users\devil\vcpkg\installed\x86-windows\include\entt\meta\meta.hpp(233): note: see reference to class template instantiation 'entt::internal::meta_node<unsigned int>' being compiled
+  c:\users\devil\vcpkg\installed\x86-windows\include\entt\meta\meta.hpp(347): note: see reference to class template instantiation 'entt::internal::meta_info<Type>' being compiled
+          with
+          [
+              Type=unsigned int
+          ]
+  c:\users\devil\vcpkg\installed\x86-windows\include\entt\meta\meta.hpp(379): note: see reference to function template instantiation 'entt::meta_any::meta_any<unsigned int,size_t&>(std::in_place_type_t<unsigned int>,size_t &)' being compiled
+  c:\users\devil\vcpkg\installed\x86-windows\include\entt\meta\meta.hpp(970): note: see reference to function template instantiation 'entt::meta_any::meta_any<size_t&,void>(Type)' being compiled
+          with
+          [
+              Type=size_t &
+          ]
+  ISystem.cpp
+c:\users\devil\vcpkg\installed\x86-windows\include\entt\core\type_info.hpp(60): warning C4307: '*': integral constant overflow
+  c:\users\devil\vcpkg\installed\x86-windows\include\entt\core\type_info.hpp(59): note: while compiling class template member function 'uint32_t entt::type_info<unsigned int,void>::id(void) noexcept'
+  c:\users\devil\vcpkg\installed\x86-windows\include\entt\meta\meta.hpp(199): note: see reference to function template instantiation 'uint32_t entt::type_info<unsigned int,void>::id(void) noexcept' being compiled
+  c:\users\devil\vcpkg\installed\x86-windows\include\entt\meta\meta.hpp(197): note: see reference to class template instantiation 'entt::type_info<unsigned int,void>' being compiled
+  c:\users\devil\vcpkg\installed\x86-windows\include\entt\meta\meta.hpp(197): note: while compiling class template member function 'entt::internal::meta_type_node *entt::internal::meta_node<unsigned int>::resolve(void) noexcept'
+  c:\users\devil\vcpkg\installed\x86-windows\include\entt\meta\meta.hpp(349): note: see reference to function template instantiation 'entt::internal::meta_type_node *entt::internal::meta_node<unsigned int>::resolve(void) noexcept' being compiled
+  c:\users\devil\vcpkg\installed\x86-windows\include\entt\meta\meta.hpp(233): note: see reference to class template instantiation 'entt::internal::meta_node<unsigned int>' being compiled
+  c:\users\devil\vcpkg\installed\x86-windows\include\entt\meta\meta.hpp(347): note: see reference to class template instantiation 'entt::internal::meta_info<Type>' being compiled
+          with
+          [
+              Type=unsigned int
+          ]
+  c:\users\devil\vcpkg\installed\x86-windows\include\entt\meta\meta.hpp(379): note: see reference to function template instantiation 'entt::meta_any::meta_any<unsigned int,size_t&>(std::in_place_type_t<unsigned int>,size_t &)' being compiled
+  c:\users\devil\vcpkg\installed\x86-windows\include\entt\meta\meta.hpp(970): note: see reference to function template instantiation 'entt::meta_any::meta_any<size_t&,void>(Type)' being compiled
+          with
+          [
+              Type=size_t &
+          ]
+  Orbit.cpp
+c:\users\devil\source\repos\galaxyecs\galaxyecs\orbit.cpp(23): warning C4244: '-=': conversion from 'float' to 'int64_t', possible loss of data
+c:\users\devil\source\repos\galaxyecs\galaxyecs\orbit.cpp(24): warning C4244: '-=': conversion from 'float' to 'int64_t', possible loss of data
+c:\users\devil\vcpkg\installed\x86-windows\include\entt\core\type_info.hpp(60): warning C4307: '*': integral constant overflow
+  c:\users\devil\vcpkg\installed\x86-windows\include\entt\core\type_info.hpp(59): note: while compiling class template member function 'uint32_t entt::type_info<Component,void>::id(void) noexcept'
+          with
+          [
+              Component=CTransform
+          ]
+  c:\users\devil\vcpkg\installed\x86-windows\include\entt\entity\registry.hpp(193): note: see reference to function template instantiation 'uint32_t entt::type_info<Component,void>::id(void) noexcept' being compiled
+          with
+          [
+              Component=CTransform
+          ]
+  c:\users\devil\vcpkg\installed\x86-windows\include\entt\entity\registry.hpp(193): note: see reference to class template instantiation 'entt::type_info<Component,void>' being compiled
+          with
+          [
+              Component=CTransform
+          ]
+  c:\users\devil\vcpkg\installed\x86-windows\include\entt\entity\registry.hpp(227): note: see reference to function template instantiation 'const entt::basic_registry<entt::entity>::pool_handler<CTransform> &entt::basic_registry<entt::entity>::assure<CTransform>(void) const' being compiled
+  c:\users\devil\vcpkg\installed\x86-windows\include\entt\entity\registry.hpp(227): note: see reference to function template instantiation 'const entt::basic_registry<entt::entity>::pool_handler<CTransform> &entt::basic_registry<entt::entity>::assure<CTransform>(void) const' being compiled
+  c:\users\devil\vcpkg\installed\x86-windows\include\entt\entity\registry.hpp(901): note: see reference to function template instantiation 'entt::basic_registry<entt::entity>::pool_handler<CTransform> &entt::basic_registry<entt::entity>::assure<CTransform>(void)' being compiled
+  c:\users\devil\vcpkg\installed\x86-windows\include\entt\entity\registry.hpp(905): note: see reference to function template instantiation 'entt::basic_registry<entt::entity>::pool_handler<CTransform> &entt::basic_registry<entt::entity>::assure<CTransform>(void)' being compiled
+  c:\users\devil\source\repos\galaxyecs\galaxyecs\orbit.cpp(18): note: see reference to function template instantiation 'CTransform &entt::basic_registry<entt::entity>::get<CTransform>(const entt::entity)' being compiled
+c:\users\devil\vcpkg\installed\x86-windows\include\entt\entity\sparse_set.hpp(532): warning C4244: 'argument': conversion from 'const __int64' to 'const int', possible loss of data
+  c:\users\devil\vcpkg\installed\x86-windows\include\entt\entity\storage.hpp(455): note: see reference to function template instantiation 'void entt::sparse_set<Entity>::arrange<entt::storage<Entity,COrbit,void>::sort::<lambda_ea5a55240c375fd16d6addd9d467af5a>,entt::storage<Entity,COrbit,void>::sort::<lambda_44dab8dc85bd13dc002c6bb23f4017e4>,entt::std_sort,>(entt::sparse_set<Entity>::iterator,entt::sparse_set<Entity>::iterator,Apply,Compare,Sort)' being compiled
+          with
+          [
+              Entity=entt::entity,
+              Apply=entt::storage<entt::entity,COrbit,void>::sort::<lambda_ea5a55240c375fd16d6addd9d467af5a>,
+              Compare=entt::storage<entt::entity,COrbit,void>::sort::<lambda_44dab8dc85bd13dc002c6bb23f4017e4>,
+              Sort=entt::std_sort
+          ]
+  c:\users\devil\vcpkg\installed\x86-windows\include\entt\entity\storage.hpp(467): note: see reference to function template instantiation 'void entt::sparse_set<Entity>::arrange<entt::storage<Entity,COrbit,void>::sort::<lambda_ea5a55240c375fd16d6addd9d467af5a>,entt::storage<Entity,COrbit,void>::sort::<lambda_44dab8dc85bd13dc002c6bb23f4017e4>,entt::std_sort,>(entt::sparse_set<Entity>::iterator,entt::sparse_set<Entity>::iterator,Apply,Compare,Sort)' being compiled
+          with
+          [
+              Entity=entt::entity,
+              Apply=entt::storage<entt::entity,COrbit,void>::sort::<lambda_ea5a55240c375fd16d6addd9d467af5a>,
+              Compare=entt::storage<entt::entity,COrbit,void>::sort::<lambda_44dab8dc85bd13dc002c6bb23f4017e4>,
+              Sort=entt::std_sort
+          ]
+  c:\users\devil\vcpkg\installed\x86-windows\include\entt\entity\registry.hpp(1204): note: see reference to function template instantiation 'void entt::storage<Entity,COrbit,void>::sort<Orbit::update::<lambda_5c823bd765818c3a88d60e2d616225f7>,entt::std_sort,>(entt::storage<Entity,COrbit,void>::iterator<false>,entt::storage<Entity,COrbit,void>::iterator<false>,Compare,Sort)' being compiled
+          with
+          [
+              Entity=entt::entity,
+              Compare=Orbit::update::<lambda_5c823bd765818c3a88d60e2d616225f7>,
+              Sort=entt::std_sort
+          ]
+  c:\users\devil\vcpkg\installed\x86-windows\include\entt\entity\registry.hpp(1207): note: see reference to function template instantiation 'void entt::storage<Entity,COrbit,void>::sort<Orbit::update::<lambda_5c823bd765818c3a88d60e2d616225f7>,entt::std_sort,>(entt::storage<Entity,COrbit,void>::iterator<false>,entt::storage<Entity,COrbit,void>::iterator<false>,Compare,Sort)' being compiled
+          with
+          [
+              Entity=entt::entity,
+              Compare=Orbit::update::<lambda_5c823bd765818c3a88d60e2d616225f7>,
+              Sort=entt::std_sort
+          ]
+  c:\users\devil\source\repos\galaxyecs\galaxyecs\orbit.cpp(8): note: see reference to function template instantiation 'void entt::basic_registry<entt::entity>::sort<COrbit,Orbit::update::<lambda_5c823bd765818c3a88d60e2d616225f7>,entt::std_sort,>(Compare,Sort)' being compiled
+          with
+          [
+              Compare=Orbit::update::<lambda_5c823bd765818c3a88d60e2d616225f7>,
+              Sort=entt::std_sort
+          ]
+  c:\users\devil\source\repos\galaxyecs\galaxyecs\orbit.cpp(5): note: see reference to function template instantiation 'void entt::basic_registry<entt::entity>::sort<COrbit,Orbit::update::<lambda_5c823bd765818c3a88d60e2d616225f7>,entt::std_sort,>(Compare,Sort)' being compiled
+          with
+          [
+              Compare=Orbit::update::<lambda_5c823bd765818c3a88d60e2d616225f7>,
+              Sort=entt::std_sort
+          ]
+c:\users\devil\vcpkg\installed\x86-windows\include\entt\entity\sparse_set.hpp(533): warning C4244: 'argument': conversion from 'const __int64' to 'const int', possible loss of data
+c:\users\devil\vcpkg\installed\x86-windows\include\entt\entity\sparse_set.hpp(537): warning C4244: 'initializing': conversion from 'const __int64' to 'entt::sparse_set<Entity>::size_type', possible loss of data
+          with
+          [
+              Entity=entt::entity
+          ]
+c:\users\devil\vcpkg\installed\x86-windows\include\entt\entity\sparse_set.hpp(537): warning C4244: 'initializing': conversion from '__int64' to 'entt::sparse_set<Entity>::size_type', possible loss of data
+          with
+          [
+              Entity=entt::entity
+          ]
+  Renderer.cpp
+c:\users\devil\source\repos\galaxyecs\galaxyecs\renderer.cpp(325): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+c:\users\devil\source\repos\galaxyecs\galaxyecs\renderer.cpp(371): warning C4244: 'argument': conversion from 'double' to 'unsigned int', possible loss of data
+c:\users\devil\source\repos\galaxyecs\galaxyecs\renderer.cpp(876): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+c:\users\devil\source\repos\galaxyecs\galaxyecs\renderer.cpp(937): warning C4018: '<': signed/unsigned mismatch
+c:\users\devil\source\repos\galaxyecs\galaxyecs\renderer.cpp(1030): warning C4244: 'argument': conversion from 'T' to 'GLfloat', possible loss of data
+          with
+          [
+              T=glm::f64
+          ]
+c:\users\devil\source\repos\galaxyecs\galaxyecs\renderer.cpp(1031): warning C4244: 'argument': conversion from 'T' to 'GLfloat', possible loss of data
+          with
+          [
+              T=glm::f64
+          ]
+c:\users\devil\source\repos\galaxyecs\galaxyecs\renderer.cpp(1032): warning C4244: 'argument': conversion from 'T' to 'GLfloat', possible loss of data
+          with
+          [
+              T=glm::f64
+          ]
+c:\users\devil\vcpkg\installed\x86-windows\include\entt\core\type_info.hpp(60): warning C4307: '*': integral constant overflow
+  c:\users\devil\vcpkg\installed\x86-windows\include\entt\core\type_info.hpp(59): note: while compiling class template member function 'uint32_t entt::type_info<Component,void>::id(void) noexcept'
+          with
+          [
+              Component=CPlanet
+          ]
+  c:\users\devil\vcpkg\installed\x86-windows\include\entt\entity\registry.hpp(193): note: see reference to function template instantiation 'uint32_t entt::type_info<Component,void>::id(void) noexcept' being compiled
+          with
+          [
+              Component=CPlanet
+          ]
+  c:\users\devil\vcpkg\installed\x86-windows\include\entt\entity\registry.hpp(193): note: see reference to class template instantiation 'entt::type_info<Component,void>' being compiled
+          with
+          [
+              Component=CPlanet
+          ]
+  c:\users\devil\vcpkg\installed\x86-windows\include\entt\entity\registry.hpp(850): note: see reference to function template instantiation 'const entt::basic_registry<entt::entity>::pool_handler<CPlanet> &entt::basic_registry<entt::entity>::assure<CPlanet>(void) const' being compiled
+  c:\users\devil\vcpkg\installed\x86-windows\include\entt\entity\registry.hpp(852): note: see reference to function template instantiation 'const entt::basic_registry<entt::entity>::pool_handler<CPlanet> &entt::basic_registry<entt::entity>::assure<CPlanet>(void) const' being compiled
+  c:\users\devil\source\repos\galaxyecs\galaxyecs\renderer.cpp(624): note: see reference to function template instantiation 'bool entt::basic_registry<entt::entity>::has<CPlanet>(const entt::entity) const' being compiled
+  c:\users\devil\source\repos\galaxyecs\galaxyecs\renderer.cpp(624): note: see reference to function template instantiation 'bool entt::basic_registry<entt::entity>::has<CPlanet>(const entt::entity) const' being compiled
+  Shader.cpp
+c:\users\devil\vcpkg\installed\x86-windows\include\entt\core\type_info.hpp(60): warning C4307: '*': integral constant overflow
+  c:\users\devil\vcpkg\installed\x86-windows\include\entt\core\type_info.hpp(59): note: while compiling class template member function 'uint32_t entt::type_info<unsigned int,void>::id(void) noexcept'
+  c:\users\devil\vcpkg\installed\x86-windows\include\entt\meta\meta.hpp(199): note: see reference to function template instantiation 'uint32_t entt::type_info<unsigned int,void>::id(void) noexcept' being compiled
+  c:\users\devil\vcpkg\installed\x86-windows\include\entt\meta\meta.hpp(197): note: see reference to class template instantiation 'entt::type_info<unsigned int,void>' being compiled
+  c:\users\devil\vcpkg\installed\x86-windows\include\entt\meta\meta.hpp(197): note: while compiling class template member function 'entt::internal::meta_type_node *entt::internal::meta_node<unsigned int>::resolve(void) noexcept'
+  c:\users\devil\vcpkg\installed\x86-windows\include\entt\meta\meta.hpp(349): note: see reference to function template instantiation 'entt::internal::meta_type_node *entt::internal::meta_node<unsigned int>::resolve(void) noexcept' being compiled
+  c:\users\devil\vcpkg\installed\x86-windows\include\entt\meta\meta.hpp(233): note: see reference to class template instantiation 'entt::internal::meta_node<unsigned int>' being compiled
+  c:\users\devil\vcpkg\installed\x86-windows\include\entt\meta\meta.hpp(347): note: see reference to class template instantiation 'entt::internal::meta_info<Type>' being compiled
+          with
+          [
+              Type=unsigned int
+          ]
+  c:\users\devil\vcpkg\installed\x86-windows\include\entt\meta\meta.hpp(379): note: see reference to function template instantiation 'entt::meta_any::meta_any<unsigned int,size_t&>(std::in_place_type_t<unsigned int>,size_t &)' being compiled
+  c:\users\devil\vcpkg\installed\x86-windows\include\entt\meta\meta.hpp(970): note: see reference to function template instantiation 'entt::meta_any::meta_any<size_t&,void>(Type)' being compiled
+          with
+          [
+              Type=size_t &
+          ]
+  ShaderManager.cpp
+c:\users\devil\vcpkg\installed\x86-windows\include\entt\core\type_info.hpp(60): warning C4307: '*': integral constant overflow
+  c:\users\devil\vcpkg\installed\x86-windows\include\entt\core\type_info.hpp(59): note: while compiling class template member function 'uint32_t entt::type_info<unsigned int,void>::id(void) noexcept'
+  c:\users\devil\vcpkg\installed\x86-windows\include\entt\meta\meta.hpp(199): note: see reference to function template instantiation 'uint32_t entt::type_info<unsigned int,void>::id(void) noexcept' being compiled
+  c:\users\devil\vcpkg\installed\x86-windows\include\entt\meta\meta.hpp(197): note: see reference to class template instantiation 'entt::type_info<unsigned int,void>' being compiled
+  c:\users\devil\vcpkg\installed\x86-windows\include\entt\meta\meta.hpp(197): note: while compiling class template member function 'entt::internal::meta_type_node *entt::internal::meta_node<unsigned int>::resolve(void) noexcept'
+  c:\users\devil\vcpkg\installed\x86-windows\include\entt\meta\meta.hpp(349): note: see reference to function template instantiation 'entt::internal::meta_type_node *entt::internal::meta_node<unsigned int>::resolve(void) noexcept' being compiled
+  c:\users\devil\vcpkg\installed\x86-windows\include\entt\meta\meta.hpp(233): note: see reference to class template instantiation 'entt::internal::meta_node<unsigned int>' being compiled
+  c:\users\devil\vcpkg\installed\x86-windows\include\entt\meta\meta.hpp(347): note: see reference to class template instantiation 'entt::internal::meta_info<Type>' being compiled
+          with
+          [
+              Type=unsigned int
+          ]
+  c:\users\devil\vcpkg\installed\x86-windows\include\entt\meta\meta.hpp(379): note: see reference to function template instantiation 'entt::meta_any::meta_any<unsigned int,size_t&>(std::in_place_type_t<unsigned int>,size_t &)' being compiled
+  c:\users\devil\vcpkg\installed\x86-windows\include\entt\meta\meta.hpp(970): note: see reference to function template instantiation 'entt::meta_any::meta_any<size_t&,void>(Type)' being compiled
+          with
+          [
+              Type=size_t &
+          ]
+  vec64.cpp
